@@ -1,3 +1,6 @@
+/* ===GLOBAL=== */
+
+
 * {
 	font-family: 'Quicksand', sans-serif !Important;
 	color: #edddd5 !Important;
@@ -5,4 +8,49 @@
 
 body {
 	background: #283d3b;
+}
+
+
+/* ===NAVBAR=== */
+
+
+nav {
+	background: #283d3b;
+	text-align: center;
+	font-size: 110%;
+	height: 60px;
+}
+
+.nav-item {
+	line-height: 60px;	/* Must be the same as nav height ^ */
+}
+
+
+/* ===MAIN CONTENT=== */
+
+
+.main-content {
+	background: #edddd5;
+}
+
+.profile {
+	border-radius: 100%;
+	height: 300px;	
+	width: 300px;
+}
+
+
+/* ===SECONDARY CONTENT=== */
+
+
+.secondary-content {
+	background: #197278;
+}
+
+
+/* ===FOOTER=== */
+
+
+footer {
+	background: #283d3b;	
 }
