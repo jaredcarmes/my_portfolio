@@ -1,4 +1,8 @@
 * {
-	font-family: 'Quicksand', sans-serif;
-	color: red;
+	font-family: 'Quicksand', sans-serif !Important;
+	color: #edddd5 !Important;
+}
+
+body {
+	background: #283d3b;
 }
