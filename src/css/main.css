@@ -18,11 +18,29 @@ nav {
 	background: #283d3b;
 	text-align: center;
 	font-size: 110%;
-	height: 60px;
+	font-size: 90%;	
 }
 
 .nav-item {
-	line-height: 60px;	/* Must be the same as nav height ^ */
+	line-height: 60px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+
+}
+
+.active {
+	background: #197278;
+	width: 25%
+}
+
+.logo
+img {
+	position: absolute;
+	width: 65px;
+	top: 550px;
+	left: 50%;
+	margin-left: -32.5px;	/* Must be half of the width */
 }
 
 
@@ -31,12 +49,18 @@ nav {
 
 .main-content {
 	background: #edddd5;
+	height: 350px;
 }
 
 .profile {
-	border-radius: 100%;
-	height: 300px;	
-	width: 300px;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.profile
+img {
+	width: 250px;	
+	border-radius: 100%;	
 }
 
 
@@ -45,6 +69,7 @@ nav {
 
 .secondary-content {
 	background: #197278;
+	height: 240px;	
 }
 
 
@@ -53,4 +78,5 @@ nav {
 
 footer {
 	background: #283d3b;	
+	height: 65px;
 }

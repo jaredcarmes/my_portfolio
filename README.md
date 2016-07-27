@@ -1,4 +1,4 @@
-<img src="src/img/Logo.png" height="100px" width="100px">
+<img src="src/img/logo.png" height="100px" width="100px">
 
 # My Portfolio Website
 <hr>
