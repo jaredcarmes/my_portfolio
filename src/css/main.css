@@ -38,7 +38,7 @@ nav {
 img {
 	position: absolute;
 	width: 65px;
-	top: 550px;
+	top: 580px;
 	left: 50%;
 	margin-left: -32.5px;	/* Must be half of the width */
 }
@@ -50,17 +50,19 @@ img {
 .main-content {
 	background: #edddd5;
 	height: 350px;
+	margin-top: 40px;
+	padding-bottom: 40px;
 }
 
 .profile {
-	margin-top: 80px;
+	margin-top: 60px;
 	text-align: center;
 }
 
 .profile
 img {
 	width: 250px;	
-	border-radius: 100%;	
+	border-radius: 100%;
 }
 
 
@@ -69,7 +71,22 @@ img {
 
 .secondary-content {
 	background: #197278;
-	height: 240px;	
+	height: 230px;	
+	margin-top: -20px;
+	text-align: center;
+}
+
+.secondary-content
+h1 {
+	padding-top: 50px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.secondary-content
+h3 {
+	font-size: 20px;
+	padding-top: 10px;
 }
 
 
@@ -78,5 +95,14 @@ img {
 
 footer {
 	background: #283d3b;	
-	height: 65px;
+	height: 50px;
+}
+
+footer
+p {
+	position: relative;
+	font-size: 10px;
+	text-align: center;
+	top: 30px;
+	color: #141f1e !Important;
 }
